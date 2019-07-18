@@ -6,20 +6,13 @@ class Prime_Sifting
   end
 
   def sift()
-    # prime_array = []
     array = (2..@number).to_a
-
     j = 0
-    # while (j < 2)
     while (j < array.length)
-
       prime_number = array[j]
       i = 0
       while( i < array.length)
-        # binding.pry
-        if (array[i] % prime_number == 0) & (array[i] != prime_number)
-          array.delete_at(i)
-        end
+        if (array[i] % prime_number == 0) & (array[i] != prime_number) then array.delete_at(i) end
         i += 1
       end
       j += 1
