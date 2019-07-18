@@ -1,4 +1,4 @@
-# _Coin_Calculator_
+# _Prime_Sifter_
 
 #### _Pair Project for Week 8 at the coding school, Epicodus, written on July 18, 2019._
 
